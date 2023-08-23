@@ -1,49 +1,65 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react"
+import axios from "axios"
+import { useNavigate, Link } from "react-router-dom"
 
-const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-      });
+function Login() {
 
-      if (response.ok) {
-        console.log('Login successful');
-        // Redirect or perform necessary actions on successful login
-      } else {
-        console.error('Login failed');
-      }
-    } catch (error) {
-      console.error('Error during login:', error);
+    const history=useNavigate();
+
+    const [email,setEmail]=useState('')
+    const [password,setPassword]=useState('')
+
+    async function submit(e){
+        e.preventDefault();
+
+        try{
+
+            await axios.post("http://localhost:8000/",{
+                email,password
+            })
+            .then(res=>{
+                if(res.data=="exist"){
+                    history("/home",{state:{id:email}})
+                }
+                else if(res.data=="notexist"){
+                    alert("User have not sign up")
+                }
+            })
+            .catch(e=>{
+                alert("wrong details")
+                console.log(e);
+            })
+
+        }
+        catch(e){
+            console.log(e);
+
+        }
+
     }
-  };
 
-  return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <input
-          type="email"
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <input
-          type="password"
-          placeholder="Password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-        <button type="submit">Login</button>
-      </form>
-    </div>
-  );
-};
 
-export default Login;
+    return (
+        <div className="login">
+
+            <h1>Login</h1>
+
+            <form action="POST">
+                <input type="email" onChange={(e) => { setEmail(e.target.value) }} placeholder="Email"  />
+                <input type="password" onChange={(e) => { setPassword(e.target.value) }} placeholder="Password"  />
+                <input type="submit" onClick={submit} />
+
+            </form>
+
+            <br />
+            <p>OR</p>
+            <br />
+
+            <Link to="/signup">Signup Page</Link>
+
+        </div>
+    )
+}
+
+export default Login
