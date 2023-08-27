@@ -1,0 +1,429 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.login-login {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.8199999928474426);
+}
+.login-gamesstate {
+  top: 303px;
+  left: 338px;
+  width: 1274px;
+  height: 35px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-text {
+  color: rgba(255, 255, 255, 1);
+  width: 422px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text02 {
+  left: 516px;
+  color: rgba(255, 255, 255, 1);
+  width: 328px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text04 {
+  top: 3px;
+  left: 938px;
+  color: rgba(255, 255, 255, 1);
+  width: 336px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rectangle5 {
+  top: 330px;
+  left: 66px;
+  width: 107px;
+  height: 578px;
+  position: absolute;
+  border-radius: 51px;
+}
+.login-nav-bar {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 851px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-icons {
+  top: 383px;
+  left: 88px;
+  width: 63px;
+  height: 468px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-image7 {
+  top: 128px;
+  left: 4px;
+  width: 55px;
+  height: 62px;
+  position: absolute;
+}
+.login-image8 {
+  top: 268px;
+  left: 6px;
+  width: 57px;
+  height: 58px;
+  position: absolute;
+}
+.login-image9 {
+  top: 405px;
+  left: 0px;
+  width: 63px;
+  height: 63px;
+  position: absolute;
+}
+.login-image10 {
+  top: 0px;
+  left: 12px;
+  width: 44px;
+  height: 62px;
+  position: absolute;
+}
+.login-navbox {
+  top: 0px;
+  left: 0px;
+  width: 1728px;
+  height: 110px;
+  position: absolute;
+}
+.login-hamburger {
+  top: 44.74267578125px;
+  left: 1640px;
+  width: 36px;
+  height: 23.801172256469727px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 36px;
+  height: 4px;
+  position: absolute;
+  border-radius: 92px;
+}
+.login-rectangle3 {
+  top: 9.714783668518066px;
+  left: 0px;
+  width: 36px;
+  height: 4px;
+  position: absolute;
+  border-radius: 92px;
+}
+.login-rectangle4 {
+  top: 19.429553985595703px;
+  left: 0px;
+  width: 36px;
+  height: 4px;
+  position: absolute;
+  border-radius: 92px;
+}
+.login-navheading {
+  top: 15px;
+  left: 47px;
+  width: 1565px;
+  height: 69.70181274414062px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-text06 {
+  top: 28.5322265625px;
+  left: 1148px;
+  color: rgba(255, 255, 255, 1);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text08 {
+  top: 28.5322265625px;
+  left: 1294px;
+  color: rgba(255, 255, 255, 1);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text10 {
+  top: 27.888916015625px;
+  left: 1440px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text12 {
+  color: rgba(0, 169, 6, 1);
+  width: 144px;
+  height: auto;
+  position: absolute;
+  font-size: 68px;
+  box-shadow: 6px 4px 4px 0px rgba(255, 255, 255, 0.25) ;
+  font-style: Bold;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-datagraphs {
+  top: 414px;
+  left: 336px;
+  width: 1156px;
+  height: 510px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.login-image5 {
+  top: 24px;
+  left: 0px;
+  width: 586px;
+  height: 471px;
+  position: absolute;
+}
+.login-image6 {
+  top: 0px;
+  left: 763px;
+  width: 393px;
+  height: 510px;
+  position: absolute;
+}
+.login-login1 {
+  width: 616px;
+  height: 776px;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 1);
+  
+
+  /* Centering */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.login-text14 {
+  top: 34px;
+  left: 50px;
+  color: rgba(255, 255, 255, 1);
+  width: 403px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text16 {
+  top: 523px;
+  left: 96px;
+  color: rgba(255, 255, 255, 1);
+  width: 403px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: center;
+  font-family: Jura;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text17 {
+  color: rgba(255, 255, 255, 1);
+}
+.login-text19 {
+  top: 310px;
+  left: 204px;
+  color: rgba(255, 255, 255, 1);
+  width: 403px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: center;
+  font-family: Jura;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-rectangle19 {
+  top: 128px;
+  left: 61px;
+  width: 475px;
+  height: 55px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.login-rectangle20 {
+  top: 233px;
+  left: 61px;
+  width: 475px;
+  height: 55px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.login-rectangle21 {
+  top: 429px;
+  left: 61px;
+  width: 475px;
+  height: 55px;
+  position: absolute;
+}
+.login-text21 {
+  top: 437px;
+  left: 84px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 169, 6, 1) ;
+  width: 414px;
+  height: 50px;
+  position: absolute;
+  font-size: 30px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text21:hover {
+  cursor: pointer;
+  top: 437px;
+  left: 84px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 169, 6, 1) ;
+  width: 414px;
+  height: 50px;
+  position: absolute;
+  font-size: 30px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Jura;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text23 {
+  top: 136px;
+  left: 81px;
+  color: rgba(255, 255, 255, 1);
+  width: 403px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.login-text25 {
+  top: 241px;
+  left: 81px;
+  color: rgba(255, 255, 255, 1);
+  width: 403px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Light;
+  text-align: left;
+  font-family: Jura;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
