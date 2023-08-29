@@ -398,7 +398,7 @@
 .login-text23 {
   top: 136px;
   left: 81px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   width: 403px;
   height: auto;
   position: absolute;
@@ -414,7 +414,7 @@
 .login-text25 {
   top: 241px;
   left: 81px;
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
   width: 403px;
   height: auto;
   position: absolute;
