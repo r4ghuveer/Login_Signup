@@ -319,7 +319,8 @@
 }
 .login-text19 {
   top: 310px;
-  left: 204px;
+  left: 150px;
+ 
   color: rgba(255, 255, 255, 1);
   width: 403px;
   height: auto;
@@ -335,7 +336,7 @@
 }
 .login-rectangle19 {
   top: 128px;
-  left: 61px;
+  left:  0px;
   width: 475px;
   height: 55px;
   position: absolute;

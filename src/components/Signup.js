@@ -3,7 +3,7 @@ import axios from "axios"
 import { useNavigate, Link } from "react-router-dom"
 
 
-function Login() {
+function Signup() {
     const history=useNavigate();
 
     const [email,setEmail]=useState('')
@@ -61,4 +61,4 @@ function Login() {
     )
 }
 
-export default Login
+export default Signup;
